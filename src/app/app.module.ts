@@ -8,13 +8,15 @@ import { ApiRestService } from './api-rest.service';
 import { HttpClientModule } from '@angular/common/http';
 import { GameComponent } from './game/game.component';
 import { GamesLayoutComponent } from './games-layout/games-layout.component';
+import { GameDetailComponent } from './game-detail/game-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchTitleComponent,
     GameComponent,
-    GamesLayoutComponent
+    GamesLayoutComponent,
+    GameDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -20,7 +20,6 @@ export class SearchTitleComponent implements OnInit {
       this.word = word ;
       this.games = resp;
       this.games = this.games.result;
-      console.log(this.games);
     }).catch(console.error);
 
   }
